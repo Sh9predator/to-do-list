@@ -1,0 +1,103 @@
+/* Reset default margins and padding */
+body, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family and color */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Dark text color */
+    background-color: #21191c; /* Dark background color */
+}
+
+/* Center the container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+/* Style the heading */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffa500; /* Orange title color */
+}
+
+/* Style the input fields */
+input[type="text"], input[type="date"], select {
+    width: calc(100% - 22px); /* Adjusted width to accommodate button padding */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Style the add button */
+#add-button {
+    width: calc(100% - 22px); /* Adjusted width to match input fields */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White button text color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+#add-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style the todo list */
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style list items */
+.task {
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.task:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow on hover */
+}
+
+/* Style task title */
+.task-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-bottom: 5px;
+}
+
+/* Style task details */
+.task-details {
+    color: #666; /* Gray text color */
+    margin-bottom: 10px;
+}
+
+/* Style links */
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
